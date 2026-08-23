@@ -1,4 +1,5 @@
 # Atenção: respostas às questões textuais estão nos comentários junto com o código na seção de visualização
+# Foram utilizados os arquivos referentes ao ano de 2025
 
 import streamlit as st 
 import pandas as pd
@@ -215,7 +216,6 @@ df_agrupado_qt11 = df_agrupado_qt11.reset_index(drop=True)
 #####################################################################################################################################
 
 ### Visualizações e respostas textuais ###
-# Foram utilizados os arquivos referentes ao ano de 2025
 
 st.title("TP 2 - Visualização de dados com Streamlit")
 
