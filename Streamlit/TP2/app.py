@@ -326,7 +326,7 @@ st.altair_chart(chart_8)
 # Gráfico montado com obitos novos no eixo X e casos novos no eixo Y
 # Colorido por óbitos novos
 
-# Os retângulos formados não mostram exatamente correlações devido ao tipo dos dados. Graficos de calor que mostram correlação normalmente comparam muitos pares de atributos. No entanto, o gráfico mostra os dados relativos aos retângulos coloridos formados, ao se passar o mouse sobre eles, demonstrando a correspondência entre os valores presentes naquele local do gráfico (valores dos eixos x e y, bem como o registro da cor - referênte à semana epidemiológica)
+# É possível observar os tons mais fortes na parte inferior do gráfico, que correspondem a uma proporção menor de número de mortes em relação à quantidade de novos casos, ou seja, um número relativamente baixo de mortes proporcional à diminuiçaõ da quantidade de casos relatados. Essas áreas mais escuras correspondem extamente aos dados das semanas epidemiológicas mais recentes disponíveis, conforme a barra de cores. Ou seja, o gráfico aponta para uma diminuição no número de casos e de mortes, conforme o avanço das semanas epidemiológicas.
 
 st.subheader('Questão 9')
 
